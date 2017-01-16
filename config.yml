@@ -1,0 +1,22 @@
+sensors:
+  timeSensor:
+    interval: 10
+  hookSensor:
+    port: 8081
+    url: "/github/st2"
+    api-key: "123456789"
+
+tasks:
+  sleep:
+    interval: 10
+
+activeFlows:
+  - sensor: "hookSensor"
+    rules: []
+    tasks:
+      - sleep:
+          interval: 1
+      - sleep:
+          interval: 2
+      - sleep:
+          interval: 3

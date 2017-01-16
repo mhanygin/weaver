@@ -1,0 +1,9 @@
+package: github.com/InnovaCo/weaver
+import:
+  - package: github.com/Jeffail/gabs
+  - package: github.com/ghodss/yaml
+  - package: github.com/satori/go.uuid
+  - package: github.com/op/go-logging
+  - package: github.com/hopkinsth/go-ruler
+  - package: gopkg.in/alecthomas/kingpin.v2
+  - package: github.com/mattn/go-sqlite3

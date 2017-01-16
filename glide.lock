@@ -1,0 +1,32 @@
+hash: fd54e6b20ef4cf4bc8ee7aeb1fdc7121ebc42f07907bbb52412b86f981beaf60
+updated: 2016-12-27T18:30:29.723461236+03:00
+imports:
+- name: github.com/alecthomas/template
+  version: a0175ee3bccc567396460bf5acd36800cb10c49c
+  subpackages:
+  - parse
+- name: github.com/alecthomas/units
+  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+- name: github.com/ghodss/yaml
+  version: bea76d6a4713e18b7f5321a2b020738552def3ea
+- name: github.com/hopkinsth/go-ruler
+  version: 6e651a652de80d6923a6b7fa6de1666d7b470559
+- name: github.com/Jeffail/gabs
+  version: 2a3aa15961d5fee6047b8151b67ac2f08ba2c48c
+- name: github.com/mattn/go-sqlite3
+  version: 2d44decb4941c9cdf72c22297b7890faf7da9bcb
+- name: github.com/op/go-logging
+  version: 970db520ece77730c7e4724c61121037378659d9
+- name: github.com/satori/go.uuid
+  version: b061729afc07e77a8aa4fad0a2fd840958f1942a
+- name: github.com/tj/go-debug
+  version: ff4a55a20a86994118644bbddc6a216da193cc13
+- name: golang.org/x/net
+  version: 45e771701b814666a7eb299e6c7a57d0b1799e91
+  subpackages:
+  - context
+- name: gopkg.in/alecthomas/kingpin.v2
+  version: e9044be3ab2a8e11d4e1f418d12f0790d57e8d70
+- name: gopkg.in/yaml.v2
+  version: a5b47d31c556af34a302ce5d659e6fea44d90de0
+testImports: []
